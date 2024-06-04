@@ -10,7 +10,8 @@ website:
         href: https://github.com/bunoooo
 format:
   html:
-    css: styles.css
-
+    theme:
+      - pulse
+      - custom.scss
 editor: visual
 
