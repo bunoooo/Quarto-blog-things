@@ -8,6 +8,6 @@ image: "image.jpg"
 
 Sejam bem vindos, a ideia do site é criar um repósitorio de codigos e estatística para todos e em português. Penso no futuro em disponibilizar também uma versão em inglês.
 
-```{r , echo = FALSE}
+```{r }
 print("welcome to site")
 ```
