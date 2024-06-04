@@ -1,13 +1,13 @@
 ---
-title: "Post With Code"
-author: "Harlow Malloc"
-date: "2024-05-31"
+title: "Meu repósitorio"
+author: "Bruno Fernandes"
+date: "2024-06-04"
 categories: [news, code, analysis]
 image: "image.jpg"
 ---
 
-This is a post with executable code.
+Sejam bem vindos, a ideia do site é criar um repósitorio de codigos e estatística para todos e em português. Penso no futuro em disponibilizar também uma versão em inglês.
 
-```{r}
-1 + 1
+```{r , echo = FALSE}
+print("welcome to site")
 ```
