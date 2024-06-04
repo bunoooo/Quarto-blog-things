@@ -1,0 +1,15 @@
+{
+  "hash": "7908c2ac40121bb0f396a76a4798fb91",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Meu repósitorio\"\nauthor: \"Bruno Fernandes\"\ndate: \"2024-06-04\"\ncategories: [news, code, analysis]\nimage: \"image.jpg\"\n---\n\n\n## introdução\n\nSejam bem vindos, a ideia do site é criar um repósitorio de codigos e estatística para todos e em português. Penso no futuro em disponibilizar também uma versão em inglês.\n\n\n::: {.cell}\n\n```{.r .cell-code}\nprint(\"welcome to site\")\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] \"welcome to site\"\n```\n\n\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

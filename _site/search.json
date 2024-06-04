@@ -26,5 +26,19 @@
     "title": "Welcome To My Blog",
     "section": "",
     "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "posts/Seja bem vindo/index.html",
+    "href": "posts/Seja bem vindo/index.html",
+    "title": "Meu repósitorio",
+    "section": "",
+    "text": "Sejam bem vindos, a ideia do site é criar um repósitorio de codigos e estatística para todos e em português. Penso no futuro em disponibilizar também uma versão em inglês.\n\nprint(\"welcome to site\")\n\n[1] \"welcome to site\""
+  },
+  {
+    "objectID": "posts/Seja bem vindo/index.html#introdução",
+    "href": "posts/Seja bem vindo/index.html#introdução",
+    "title": "Meu repósitorio",
+    "section": "",
+    "text": "Sejam bem vindos, a ideia do site é criar um repósitorio de codigos e estatística para todos e em português. Penso no futuro em disponibilizar também uma versão em inglês.\n\nprint(\"welcome to site\")\n\n[1] \"welcome to site\""
   }
 ]
