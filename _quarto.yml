@@ -2,14 +2,12 @@ project:
   type: website
 
 website:
-  title: "Quarto blog things"
+  title: "Ciência de dados para todos"
   navbar:
     right:
       - about.qmd
       - icon: github
-        href: https://github.com/
-      - icon: twitter
-        href: https://twitter.com
+        href: https://github.com/bunoooo
 format:
   html:
     css: styles.css
