@@ -1,69 +1,204 @@
 /*-- scss:defaults --*/
-$bs-blue: #027373 !default;
-$bs-pagination-active-bg: $bs-blue !default;
-$bs-primary: $bs-blue !default;
-$bs-btn-hover-bg: $bs-blue !default;
+
+// Variáveis
+$primary-color: #9172be; // Cor do navbar e outros elementos principais
+$secondary-color: #03dac5; // Cor secundária
+$background-color: #f8f9fa;
+$text-color: #333;
+$border-radius: 10px;
+$font-family: 'Roboto', sans-serif;
+
+/*-- scss:mixins --*/
+// Nenhum mixin no momento
+
+/*-- scss:functions --*/
+// Nenhuma função SCSS no momento
 
 /*-- scss:rules --*/
 
-.navbar {
-  background-color: $bs-blue;
+// Resets básicos
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.quarto-title-banner{
-  background-color: #0c2e42 ;
+body {
+  font-family: $font-family;
+  background-color: $background-color;
+  color: $text-color;
+  line-height: 1.6;
+  padding: 20px;
+  margin: 0;
 }
 
-.btn-primary {
-    color: #fff;
-    background-color: $bs-blue;
-    border-color: $bs-blue;
+/* Estilos para main e parágrafos */
+main, p {
+  font-size: 1.1rem !important;
 }
 
+.callout.callout-style-default .callout-body {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
 
+/* Definindo variáveis CSS no :root */
+:root {
+  --bs-blue: #9172be;
+  --bs-primary: #eb6864;
+}
 
+/* Estilos para posts */
+div.quarto-post .thumbnail img {
+  width: 100%;
+  object-fit: contain;
+  max-height: 150px;
+}
+
+.quarto-listing-category.category-cloud {
+  font-family: 'News Cycle';
+}
+
+.quarto-listing-category.category-cloud .category-cloud-1,
+.quarto-listing-category.category-cloud .category-cloud-2,
+.quarto-listing-category.category-cloud .category-cloud-3,
+.quarto-listing-category.category-cloud .category-cloud-4,
+.quarto-listing-category.category-cloud .category-cloud-5,
+.quarto-listing-category.category-cloud .category-cloud-6 {
+  border-radius: 10%;
+}
+
+.quarto-listing-category.category-cloud .category-cloud-6 {
+  background: #f0fff2;
+}
+
+.quarto-listing-category.category-cloud .category-cloud-5 {
+  background: aliceblue;
+}
+
+.quarto-listing-category.category-cloud .category-cloud-4 {
+  background: #fdf0ff;
+}
+
+.quarto-listing-category.category-cloud .category-cloud-3 {
+  background: #fff0f0;
+}
+
+.quarto-listing-category.category-cloud .category-cloud-2 {
+  background: #f2f0ff;
+}
+
+.quarto-listing-category.category-cloud .category-cloud-1 {
+  background: #f0f1ff;
+}
+
+/* Navbar */
+.navbar-dark {
+  background-color: var(--bs-blue);
+}
+
+/* Estilos para paginação */
 .page-item.active .page-link {
-    z-index: 3;
-    color: #fff;
-    background-color: $bs-blue;
-    border-color: $bs-blue;
+  z-index: 3;
+  color: #fff;
+  background-color: var(--bs-blue);
+  border-color: var(--bs-blue);
 }
-
-.quarto-title-banner {
-    margin-bottom: 1em;
-    color: rgba(255,255,255,.7);
-    background: $bs-blue;
-}
-
 
 .page-link {
-      color: $bs-blue;
+  color: var(--bs-blue);
 }
-
 
 .page-link:hover {
-    z-index: 2;
-    color: #fff;
-    background-color: $bs-blue;
-    border-color: $bs-blue;
+  z-index: 2;
+  color: #fff;
+  background-color: var(--bs-blue);
+  border-color: var(--bs-blue);
 }
 
-a{
-  color: $bs-blue;
+/* Banner do título */
+.quarto-title-banner {
+  margin-bottom: 1em;
+  color: rgba(255, 255, 255, 0.7);
+  background: var(--bs-blue);
 }
 
+/* Estilos para links */
+a {
+  color: var(--bs-blue);
+}
+
+/* Estilos para texto em negrito */
 b, strong {
-    color: $bs-blue;
-    font-weight: bolder;
+  color: var(--bs-blue);
+  font-weight: bolder;
 }
 
+/* Estilos para categorias de listagem */
 div.quarto-post .listing-categories .listing-category {
-    color: $bs-blue;
-    border: solid 1px var(--bs-gray-400);
-    font-size: .8em;
+  color: var(--bs-blue);
+  border: solid 1px var(--bs-gray-400);
+  font-size: 0.8em;
 }
 
+/* Estilos para botões primários */
+.btn-primary {
+  color: #fff;
+  background-color: var(--bs-blue);
+  border-color: var(--bs-blue);
+}
 
-p pre code:not(.sourceCode), li pre code:not(.sourceCode), pre code:not(.sourceCode) {
-  background-color: #f0efff;
+.btn-primary:hover {
+  color: #000;
+  background-color: #f0f1ff;
+  border-color: #f0f1ff;
+  padding: 0.375rem 0.75rem;
+  font-size: 1.1rem !important;
+  margin-top: -9px;
+}
+
+/* Estilos para navegação na sidebar */
+.sidebar nav[role=doc-toc] ul>li>a.active,
+.sidebar nav[role=doc-toc] ul>li>ul>li>a.active {
+  border-left: 1px solid var(--bs-blue);
+  color: var(--bs-blue) !important;
+}
+
+/* Estilos para link na descrição do autor */
+div.quarto-about-trestles .about-entity .about-link:hover {
+  color: var(--bs-blue);
+}
+
+.nav-link:hover, .nav-link:focus {
+  color: var(--bs-blue);
+}
+
+/* Alertas */
+.alert-primary {
+  color: var(--bs-gray-dark);
+  background-color: var(--bs-body-bg);
+  border-color: var(--bs-blue);
+  border-style: dashed;
+}
+
+/* Link de navegação */
+.nav-link {
+  color: var(--bs-purple);
+}
+
+/* Botão de login */
+.libutton {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 7px;
+  text-align: center;
+  outline: none;
+  text-decoration: none !important;
+  color: #ffffff !important;
+  width: 200px;
+  height: 32px;
+  border-radius: 16px;
+  background-color: #0A66C2;
+  font-family: "SF Pro Text", Helvetica, sans-serif;
 }

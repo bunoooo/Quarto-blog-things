@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Quarto blog things",
     "section": "",
-    "text": "Meu repósitorio\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nJun 4, 2024\n\n\nBruno Fernandes\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nMay 28, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "1 min\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\nBruno Fernandes\n\n\nJun 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n1 min\n\n\n\nnews\n\n\n\n\nTristan O’Malley\n\n\nMay 28, 2024\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -16,7 +16,7 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "Sobre",
     "section": "",
     "text": "Sejam bem vindos, a ideia do site é criar um repósitorio de codigos e estatística para todos e em português. Penso no futuro em disponibilizar também uma versão em inglês."
   },
@@ -40,5 +40,12 @@
     "title": "Meu repósitorio",
     "section": "",
     "text": "Sejam bem vindos, a ideia do site é criar um repósitorio de codigos e estatística para todos e em português. Penso no futuro em disponibilizar também uma versão em inglês.\n\nprint(\"welcome to site\")\n\n[1] \"welcome to site\""
+  },
+  {
+    "objectID": "index.html#textosposts",
+    "href": "index.html#textosposts",
+    "title": "Quarto blog things",
+    "section": "",
+    "text": "1 min\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\nBruno Fernandes\n\n\nJun 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n1 min\n\n\n\nnews\n\n\n\n\nTristan O’Malley\n\n\nMay 28, 2024\n\n\n\n\n\n\n\n\nNo matching items"
   }
 ]
